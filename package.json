@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "0.0.0-development",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "keywords": [],
+  "author": "Stone Sun",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/semantic-release-demos/semantic-release-demo.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^19.0.3"
+  }
+}
