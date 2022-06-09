@@ -11,9 +11,14 @@
     "files": [
         "dist"
     ],
-    "keywords": [],
+    "private": false,
+    "keywords": [
+        "release",
+        "semantic-release",
+        "semantic-release-demo"
+    ],
     "author": "Stone Sun",
-    "license": "ISC",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/semantic-release-demos/semantic-release-demo.git"
