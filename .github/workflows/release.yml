@@ -20,7 +20,7 @@ jobs:
     - run: npm i
     - run: npm run build
     - run: npm test
-    - run: npm run semantic-release
+    - run: npm run semantic-release && echo $GH_TOKEN
       env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        GH_TOKEN: ${{ secrets.X }}
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
