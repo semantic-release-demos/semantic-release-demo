@@ -1,7 +1,6 @@
 {
     "branches": [
-        "master",
-        "next"
+        "main"
     ],
     "plugins": [
         "@semantic-release/commit-analyzer",
@@ -17,6 +16,5 @@
         ],
         "@semantic-release/git",
         "@semantic-release/changelog"
-    ],
-    "preset": "react"
+    ]
 }
