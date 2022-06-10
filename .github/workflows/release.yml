@@ -20,8 +20,10 @@ jobs:
     - run: npm i
     - run: npm run build
     - run: npm test
-    - run:
-        npm run semantic-release && cat package.json && echo "------------"
+    - run: |
+        npm run semantic-release
+        cat package.json
+        echo "------------"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - run:
