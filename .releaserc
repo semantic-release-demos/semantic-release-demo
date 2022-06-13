@@ -4,9 +4,13 @@
     ],
     "plugins": [
         "@semantic-release/commit-analyzer",
-        "@semantic-release/release-notes-generator",
-        "@semantic-release/changelog",
-        "@semantic-release/npm",
+        [
+            "@semantic-release/exec",
+            {
+                "verifyConditionsCmd": "./semantic-release-scripts/verify.sh",
+                "publishCmd": "./semantic-release-scripts/publish.sh ${nextRelease.version} ${options.branch} ${commits.length} ${Date.now()}"
+            }
+        ],
         "@semantic-release/github"
     ]
 }
