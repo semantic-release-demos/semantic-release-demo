@@ -7,5 +7,6 @@ echo "publishing $1 $2 $3" >> ./test-publish.log
 cat ./test-publish.log
 pwd
 ls -la
+git add .
 # rush change
 # rush publish
