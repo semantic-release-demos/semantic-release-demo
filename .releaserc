@@ -11,8 +11,7 @@
                 "publishCmd": "./semantic-release-scripts/publish.sh ${nextRelease.version} ${options.branch} ${commits.length} ${Date.now()}"
             }
         ],
-        "@semantic-release/changelog",
-        "@semantic-release/npm",
+        "@semantic-release/git",
         "@semantic-release/github"
     ]
 }
