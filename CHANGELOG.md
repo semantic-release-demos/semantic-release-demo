@@ -1,3 +1,10 @@
+## [1.1.18](https://github.com/semantic-release-demos/semantic-release-demo/compare/v1.1.17...v1.1.18) (2022-06-13)
+
+
+### fix
+
+* test exec plugin another ([c46213f](https://github.com/semantic-release-demos/semantic-release-demo/commit/c46213f5c2d2b63f5e6ea0bad8c33f41f1350aeb))
+
 ## [1.1.17](https://github.com/semantic-release-demos/semantic-release-demo/compare/v1.1.16...v1.1.17) (2022-06-13)
 
 
@@ -61,3 +68,4 @@
 ### Bug Fixes
 
 * test plugins ([debf8fa](https://github.com/semantic-release-demos/semantic-release-demo/commit/debf8fabc9ff5da1087eaff3611f230dfe7f6f0e))
+publishing 1.1.18 1 1655099958392
