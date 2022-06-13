@@ -21,19 +21,12 @@ jobs:
     - run: npm run build
     - run: npm test
     - run: |
-        ls -la semantic-release-scripts
-
-        ./semantic-release-scripts/verify.sh
-
-        echo "------------"
-
         npm run semantic-release
         cat package.json
-        echo "------------"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - run: |
-        cat package.json
-        npm publish
-      env:
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+    # - run: |
+    #     cat package.json
+    #     npm publish
+    #   env:
+    #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
