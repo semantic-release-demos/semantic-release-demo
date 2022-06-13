@@ -29,4 +29,4 @@ jobs:
     #     cat package.json
     #     npm publish
     #   env:
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        # NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
