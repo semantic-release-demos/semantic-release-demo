@@ -1,3 +1,10 @@
+## [1.1.13](https://github.com/semantic-release-demos/semantic-release-demo/compare/v1.1.12...v1.1.13) (2022-06-13)
+
+
+### fix
+
+* test exec plugin another ([5ff1789](https://github.com/semantic-release-demos/semantic-release-demo/commit/5ff178943ced212e0be8cc40035810e0f3bf54cc))
+
 ## [1.1.12](https://github.com/semantic-release-demos/semantic-release-demo/compare/v1.1.11...v1.1.12) (2022-06-13)
 
 
