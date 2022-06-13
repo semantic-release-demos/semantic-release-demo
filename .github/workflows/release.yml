@@ -20,9 +20,13 @@ jobs:
     - run: npm i
     - run: npm run build
     - run: npm test
-    - name: 'Workaround permissions issue'
-      run: chown $(whoami):$(whoami) -R .
     - run: |
+        ls -la semantic-release-scripts
+
+        ./semantic-release-scripts/verify.sh
+
+        echo "------------"
+
         npm run semantic-release
         cat package.json
         echo "------------"
